@@ -41,6 +41,7 @@ Pastikan PostgreSQL telah terinstal dan berjalan di sistem Anda. Jika PostgreSQL
 jalankan `go mod init` untuk menginisialisasi proyek Go dan `go get` untuk menginstal dependensi yang diperlukan, seperti driver PostgreSQL (`pq`). serta `go mod tidy`
 
 ## 4. Tambahkan file .env 
+```env
 DB_HOST=
 DB_PORT=
 DB_USER=
@@ -49,4 +50,5 @@ DB_NAME=
 JWT_SECRET=
 PORT=8080
 GIN_MODE=debug
+
 
